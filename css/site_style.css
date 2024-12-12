@@ -1,0 +1,10 @@
+:root {
+  /* Primære farve til hele sitet */
+  --primary: color;
+
+  /* Sekundære farve til hele sitet */
+  --secondary: color;
+
+  /* Kontrast/tertiær farve til hele sitet */
+  --contrast: color;
+}

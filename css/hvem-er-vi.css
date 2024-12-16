@@ -1,30 +1,189 @@
-/*----------OVERSKRIFT OG CTA-----------------*/
+/*************** Reset *********************/
+/* * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+} */
 
-.overskrift_og_cta {
-  margin: auto;
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.kontakt_CTA {
+  background-color: #4a326b;
+  color: #f9f5ea;
+  padding: 10px 20px 10px 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+/*------------------------------------HERO------------------------------------*/
+
+.hero_om {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.overskrift_1 {
+  padding: 20px 0px 20px 0px;
+}
+
+.overskrift_CTA {
   text-align: center;
 }
 
-/*------------------------------------------Rene--------------*/
+.overskrift_text {
+  padding: 50px 20px 10px 20px;
+}
+
+/*------------------------------------RENE FØRSTE DEL------------------------------------*/
 .rene {
+  background-color: #4a326b;
+  color: #f9f5ea;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+}
+
+.rene_1-1 {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.arbejder_med {
-  /*----------Styling------*/
+.rene_tekst_1 {
+  padding: 10px 20px 10px 20px;
+}
 
-  color: beige;
-  padding: 10px 10px 10px 10px;
-  /*-----Placering-------*/
-  text-align: center;
+.rene_img {
+  width: 75%;
+  height: 75%;
+}
+
+.quote {
+  padding: 10px 50px 10px 50px;
+}
+
+.rene_tekst_2 {
+  padding: 10px 20px 10px 20px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .rene_CTA {
-  background-color: #800080;
-  color: beige;
-  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.arbejder_med_rene {
+  background-color: #f9f5ea;
+  color: #4a326b;
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  margin-top: 60px;
+  width: 250px;
+}
+
+.kontakt_rene_CTA {
+  background-color: #f9f5ea;
+  color: #4a326b;
+  padding: 10px 20px 10px 20px;
+  margin-top: 30px;
+  border-radius: 10px;
   text-decoration: none;
 }
 
-/*------------------------------------------Kirsten--------------*/
+/*------------------------------------KIRSTEN FØRSTE DEL------------------------------------*/
+
+.kirsten_1-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  align-items: center;
+  padding: 20px;
+}
+
+.arbejder_med_kirsten {
+  background-color: #4a326b;
+  color: #f9f5ea;
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 250px;
+}
+
+.arbejder_med_og_tekst {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px 10px 20px 10px;
+}
+
+.kontakt_kirsten_CTA {
+  display: flex;
+  justify-content: center;
+  background-color: #4a326b;
+  color: #f9f5ea;
+  padding: 10px 20px 10px 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.kirsten_img {
+  width: 50%;
+  height: 50%;
+}
+
+@media (min-width: 750px) {
+  .arbejder_med {
+    background-color: #4a326b;
+    color: #f9f5ea;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 10px;
+  }
+  /*------------------------------------HERO------------------------------------*/
+  .hero_om {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /*------------------------------------RENE FØRSTE DEL------------------------------------*/
+  .rene_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .quote {
+    padding: 70px 50px 10px 50px;
+  }
+
+  /*------------------------------------RENE ANDEN DEL------------------------------------*/
+  .rene_tekst_2 {
+    padding: 10px 20px 10px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .rene_CTA {
+    display: flex;
+    justify-content: center;
+  }
+  /*------------------------------------KIRSTEN FØRSTE DEL------------------------------------*/
+
+  .kirsten_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .arbejder_med_og_tekst {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 10px 20px 10px;
+  }
+}

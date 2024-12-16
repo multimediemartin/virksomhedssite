@@ -9,6 +9,31 @@
   --contrast: color;
 }
 /* -----------Skrifter --------------*/
+h1 {
+  font-family: ;
+}
+
+h2 {
+  font-family: ;
+}
+
+h3 {
+  font-family: ;
+}
+
+p {
+  font-family: ;
+}
+
+a {
+  font-family: ;
+  text-decoration: none;
+}
+/*---------- FARVER ----------*/
+
+body {
+  background-color: ;
+}
 
 /*---------- KONTAKTFORMULAR START ----------*/
 .kontaktform {

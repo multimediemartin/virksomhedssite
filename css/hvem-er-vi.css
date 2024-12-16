@@ -1,0 +1,53 @@
+/*************** Reset *********************/
+/* * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+} */
+
+/*************** Menu ****************/
+
+/*--------------FØRSTE SECTION----------------*/
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/*----------OVERSKRIFT OG CTA-----------------*/
+
+.overskrift_og_cta {
+  margin: auto;
+  text-align: center;
+}
+
+/*------------------------------------------Rene--------------*/
+.rene {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.arbejder_med {
+  /*----------Styling------*/
+  background-color: purple;
+  color: beige;
+  padding: 10px 10px 10px 10px;
+  /*-----Placering-------*/
+  text-align: center;
+}
+
+.rene_CTA {
+  background-color: purple;
+  color: beige;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+/*------------------------------------------Kirsten--------------*/
+.kirsten {
+  background-color: beige;
+}
+
+.kirsten_arbejder_med {
+  background-color: purple;
+}

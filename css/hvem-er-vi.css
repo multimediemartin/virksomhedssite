@@ -18,6 +18,7 @@ main {
   margin-top: 30px;
   border-radius: 10px;
   text-decoration: none;
+  font-family: var(--txt_font);
 }
 /*------------------------------------HERO------------------------------------*/
 
@@ -30,6 +31,7 @@ main {
 
 .overskrift_1 {
   padding: 20px 0px 20px 0px;
+  font-family: "didot"; /*---H1---*/
 }
 
 .overskrift_CTA {
@@ -37,7 +39,6 @@ main {
 }
 
 .overskrift_text {
-  padding: 50px 20px 10px 20px;
 }
 
 /*------------------------------------RENE FØRSTE DEL------------------------------------*/
@@ -82,9 +83,9 @@ main {
   background-color: #f9f5ea;
   color: #4a326b;
   border-radius: 10px;
-  padding: 20px 20px 20px 20px;
-  margin-top: 60px;
-  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .kontakt_rene_CTA {
@@ -110,21 +111,18 @@ main {
   background-color: #4a326b;
   color: #f9f5ea;
   border-radius: 10px;
-  padding: 20px 20px 20px 20px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.arbejder_med_og_tekst {
+.kirsten_tekst_2 {
   display: grid;
   grid-template-columns: 1fr;
   padding: 20px 10px 20px 10px;
 }
 
 .kontakt_kirsten_CTA {
-  display: flex;
-  justify-content: center;
   background-color: #4a326b;
   color: #f9f5ea;
   padding: 10px 20px 10px 20px;
@@ -181,7 +179,7 @@ main {
     grid-template-columns: 1fr 1fr;
   }
 
-  .arbejder_med_og_tekst {
+  .kirsten_tekst_2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 20px 10px 20px 10px;

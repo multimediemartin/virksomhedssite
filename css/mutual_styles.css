@@ -139,8 +139,7 @@ footer p {
   width: 30px;
   height: 20px;
   cursor: pointer;
-  position: relative;
-  left: 85vw;
+  margin-top: 40px;
 }
 
 .burger .line {
@@ -253,7 +252,7 @@ input::placeholder,
 /*---------- HEADER ----------*/
 nav {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .menu a {
@@ -321,14 +320,14 @@ footer form {
 /*---------- LAYOUT ----------*/
 main {
   max-width: 70vw;
-  margin-inline: auto;
+  margin: 5cqw auto;
   position: relative;
   min-height: 70vh;
 }
 
 header {
   border-bottom: solid var(--secondary) 2px;
-  padding-block: 3vw;
+  padding-block: 15px;
   width: 90%;
   margin-inline: auto;
   position: sticky;
@@ -337,10 +336,28 @@ header {
   z-index: 1;
 }
 
+.logo {
+  margin-top: 15px;
+  height: 60px;
+}
+
 /*---------- FARVER ----------*/
 
 body {
   background-color: var(--primary);
+}
+
+.kontakt {
+  background-color: var(--secondary);
+  color: var(--primary);
+  font-family: var(--txt_font);
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 3px 20px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 3px;
 }
 
 /*---------- MEDIA QUERY ----------  */
@@ -348,6 +365,7 @@ body {
   .none_to_grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 15px;
   }
 
   footer {

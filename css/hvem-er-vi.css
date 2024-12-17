@@ -1,0 +1,244 @@
+/*************** Reset *********************/
+/* * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+} */
+/*************** Reset *********************/
+
+.img_div {
+  margin: 20px 0px 10px 0px;
+}
+
+.hero_text {
+  margin: auto;
+}
+
+.overskrift_og_cta_hero {
+  display: grid;
+  justify-content: center;
+  margin: auto;
+  gap: 20px;
+}
+
+.hero_text {
+  margin: 20px 0px 20px 0px;
+}
+/*------------------------------------------RENE--------------------------------------------*/
+
+.rene_text_1 {
+  margin: 20px 0px 20px 0px;
+}
+
+.rene_text_2 {
+  margin: 20px 0px 20px 0px;
+}
+
+blockquote {
+  font-size: 2em;
+  margin: 90px 0px 90px 0px;
+}
+
+.rene_arbejder_med {
+  /*--------styling-------*/
+  background-color: var(--secondary);
+  color: var(--primary);
+  border-radius: 20px;
+  text-decoration: none;
+  /*--------opbygning-------*/
+  display: grid;
+  justify-content: center;
+  /*---------box-størrelse--------*/
+  margin: auto;
+  padding: 30px 30px 30px 60px;
+  margin: 0px 0px 0px 0px;
+}
+
+.rene_arbejder_med_h2 {
+  color: var(--primary);
+  margin: 10px 0px 10px 0px;
+}
+
+.contact_div {
+  background-color: var(--secondary);
+  display: grid;
+  margin: 30px 40px 30px 40px;
+  padding: 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  justify-content: center;
+}
+.kontakt {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+/*------------------------------------------KIRSTEN--------------------------------------------*/
+
+/*KIRSTEN SKAL HAVE BAGGRUNDSFARVE..
+.none_to_grid_1-1 {
+  background-color: var(--contrast);
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+}
+*/
+
+.bg_color1 {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.kirsten_text_1 {
+  margin: 20px 0px 20px 0px;
+}
+
+.kirsten_arbejder_med_h2 {
+  color: var(--primary);
+}
+
+.kirsten_arbejder_med {
+  /*--------styling-------*/
+  background-color: var(--secondary);
+
+  border-radius: 20px;
+  text-decoration: none;
+  /*--------opbygning-------*/
+  display: grid;
+  justify-content: center;
+  /*---------box-størrelse--------*/
+  margin: auto;
+  padding: 30px 30px 30px 60px;
+  margin: 0px 0px 0px 0px;
+}
+
+.kirsten_text_2 {
+  margin: 20px 0px 20px 0px;
+}
+
+.contact_kirsten {
+  background-color: var(--primary);
+  display: grid;
+  margin: 30px 0px 30px 0px;
+  padding: 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.kontakt_kirsten {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+@media (min-width: 750px) {
+  /*-------------------------------HERO-----------------*/
+  .img_div {
+    margin: 20px 40px 20px 40px;
+  }
+
+  .hero_text {
+    margin-left: 50px;
+  }
+
+  .overskrift_og_cta_hero {
+    display: grid;
+    margin: auto;
+    gap: 20px;
+  }
+  /*-------------------------------RENE-----------------*/
+  .rene_text_2_1 {
+    margin-top: 20px;
+  }
+
+  .rene_text_1 {
+    margin: 100px 40px 100px 40px;
+  }
+
+  .rene_text_2 {
+    margin: 100px 40px 100px 40px;
+  }
+
+  blockquote {
+    font-size: 2em;
+    margin: 90px 40px 90px 40px;
+  }
+
+  .rene_arbejder_med {
+    /*--------styling-------*/
+    background-color: var(--secondary);
+    color: var(--primary);
+    /*--------opbygning-------*/
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    /*---------box-størrelse--------*/
+    place-self: center;
+    padding: 30px;
+    margin: 40px 40px 40px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+
+  .rene_arbejder_med_h2 {
+    color: var(--primary);
+    margin: 10px 0px 10px 0px;
+  }
+  /*-------------------------------CONTACT-----------------*/
+  .contact_div {
+    background-color: var(--secondary);
+    display: grid;
+    margin: 30px 40px 30px 40px;
+    padding: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    justify-content: center;
+  }
+  /*-------------------------------KIRSTEN-----------------*/
+  .img_div {
+    margin: 100px 40px 100px 40px;
+  }
+
+  .kirsten_text_1 {
+    margin: 100px 40px 100px 40px;
+  }
+
+  .kirsten_text_2 {
+    margin: 100px 40px 100px 40px;
+  }
+
+  .kirsten_arbejder_med_h2 {
+    color: var(--primary);
+  }
+
+  .kirsten_arbejder_med {
+    /*--------styling-------*/
+    background-color: var(--secondary);
+    color: var(--primary);
+
+    /*--------opbygning-------*/
+    display: grid;
+
+    /*---------box-størrelse--------*/
+    margin: auto;
+    padding: 30px;
+    margin: 0px 40px 0px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+
+  /*---------Fordi kirstens kontakt skal have anden farve--------*/
+  .contact_kirsten {
+    background-color: var(--primary);
+    display: grid;
+    margin: 30px 40px 30px 40px;
+    padding: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    justify-content: center;
+  }
+
+  .kontakt_kirsten {
+    text-decoration: none;
+    color: var(--secondary);
+  }
+}

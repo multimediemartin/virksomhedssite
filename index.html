@@ -18,7 +18,21 @@
     <title>Copenhagen Coaching Company</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="ydelser.html">Vores Ydelser</a></li>
+          <li><a href="hvem-er-vi.html">Hvem er vi?</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
 
     <main>
       <section class="none_to_grid_1-1">
@@ -91,9 +105,19 @@
             />
           </label>
 
-          <button type="submit">Send</button>
+          <label for="besked">
+            <textarea
+              name="besked"
+              id="besked"
+              required
+              placeholder="Skriv din besked her"
+            ></textarea>
+          </label>
+
+          <button type="submit" id="submit">Send</button>
         </fieldset>
       </form>
     </footer>
+    <script src="js/menu.js"></script>
   </body>
 </html>

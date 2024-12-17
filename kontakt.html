@@ -18,7 +18,21 @@
     <title>Kontakt</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="ydelser.html">Vores Ydelser</a></li>
+          <li><a href="hvem-er-vi.html">Hvem er vi?</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
 
     <main>
       <h1>BOOK EN TID</h1>
@@ -45,7 +59,16 @@
             />
           </label>
 
-          <button type="submit">Send</button>
+          <label for="besked">
+            <textarea
+              name="besked"
+              id="besked"
+              required
+              placeholder="Skriv din besked her"
+            ></textarea>
+          </label>
+
+          <button type="submit" id="submit">Send</button>
         </fieldset>
       </form>
 
@@ -61,6 +84,16 @@
       </div>
     </main>
 
-    <footer></footer>
+    <footer>
+      <p>
+        COPENHAGEN COACHING COMPANY <br />
+        Frederiksgade 9 <br />
+        1265 København K (lige ved Marmorkirken) <br />
+        +45 2615 2266 / +45 3024 9796 <br />
+        info@copenhagencoachingco.dk <br />
+        CVR: 27 55 88 01
+      </p>
+    </footer>
+    <script src="js/menu.js"></script>
   </body>
 </html>

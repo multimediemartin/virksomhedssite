@@ -18,19 +18,66 @@
     <title>Ydelser</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="ydelser.html">Vores Ydelser</a></li>
+          <li><a href="hvem-er-vi.html">Hvem er vi?</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
 
     <main>
       <h1>Vores Ydelser</h1>
 
       <section class="bg_color2">
         <details>
+          <summary>Individuel coaching</summary>
+        </details>
+      </section>
+      <section class="bg_color2">
+        <details>
+          <summary>Konfliktløsning</summary>
+        </details>
+      </section>
+      <section class="bg_color2">
+        <details>
+          <summary>Ledelsestræning</summary>
+        </details>
+      </section>
+      <section class="bg_color2">
+        <details>
           <summary>Ledergruppetræning</summary>
           <div class="none_to_grid_1-1">
             <div>
-              <blockquote>citat</blockquote>
+              <blockquote>
+                "Giv virksomhedens ledergruppes samarbejdsevner og dynamik et
+                eftersyn"
+              </blockquote>
               <img src="" alt="" class="span_2r" />
-              <p>brødtekst</p>
+              <p>
+                De overordnede sigte med ledergruppecoaching er at skabe større
+                ansvarlighed for helheden ved at nedbryde silotænkning samt
+                skabe en tillidsfuld virksomhedskultur, hvor forskelligheden ses
+                som en styrke. Målet er at udvikle ledelsesteamet, så hvert
+                enkelt medlem står som et stærkt ”jeg” – og teamet derigennem
+                bliver et stærkt ”vi”.   For at forløse potentialet i
+                ledergruppen er det nødvendigt at undersøge, hvilke
+                barrierer, der forhindrer kreativitet og performance.
+                Tillidsniveauet i virksomheden er normalt centralt for denne
+                udfordring. Det kræver tillid at kunne udfolde sig, da følelsen
+                af tryghed er afgørende for modet og lysten til at konfrontere
+                og diskutere de sværeste emner.   Når tilliden er skabt, øges
+                motivationen til at fortsætte den åbne og direkte tone,
+                hvilket igen skaber øget beslutningskraft og mening.
+              </p>
             </div>
           </div>
           <div class="none_to_grid_1-1 bg_color1">
@@ -43,21 +90,6 @@
           </div>
           <h2>Book ledergruppetræning</h2>
           <a href="kontakt.html">KONTAKT OS</a>
-        </details>
-      </section>
-      <section class="bg_color2">
-        <details>
-          <summary>Ledelsestræning</summary>
-        </details>
-      </section>
-      <section class="bg_color2">
-        <details>
-          <summary>Konfliktløsning</summary>
-        </details>
-      </section>
-      <section class="bg_color2">
-        <details>
-          <summary>Individiel coaching</summary>
         </details>
       </section>
     </main>
@@ -95,9 +127,19 @@
             />
           </label>
 
-          <button type="submit">Send</button>
+          <label for="besked">
+            <textarea
+              name="besked"
+              id="besked"
+              required
+              placeholder="Skriv din besked her"
+            ></textarea>
+          </label>
+
+          <button type="submit" id="submit">Send</button>
         </fieldset>
       </form>
     </footer>
+    <script src="js/menu.js"></script>
   </body>
 </html>

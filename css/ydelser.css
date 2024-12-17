@@ -1,0 +1,16 @@
+summary {
+  color: var(--primary);
+  padding: 1vw;
+}
+
+.ydelser {
+  display: grid;
+  gap: 12px;
+}
+
+details p,
+details a,
+details blockquote {
+  color: var(--primary);
+  padding: 1vw;
+}

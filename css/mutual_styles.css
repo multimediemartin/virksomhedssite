@@ -13,28 +13,32 @@ img {
 /* -----------FONT FACE START --------------*/
 @font-face {
   font-family: "didotbold";
-  src: url("../font/didot_bold-webfont.woff2") format("woff2"), url("../font/didot_bold-webfont.woff") format("woff");
+  src: url("../font/didot_bold-webfont.woff2") format("woff2"),
+    url("../font/didot_bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "didotitalic";
-  src: url("../font/didot_italic-webfont.woff2") format("woff2"), url("../font/didot_italic-webfont.woff") format("woff");
+  src: url("../font/didot_italic-webfont.woff2") format("woff2"),
+    url("../font/didot_italic-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "didot_titleregular";
-  src: url("../font/didot_title-webfont.woff2") format("woff2"), url("../font/didot_title-webfont.woff") format("woff");
+  src: url("../font/didot_title-webfont.woff2") format("woff2"),
+    url("../font/didot_title-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "didotregular";
-  src: url("../font/didot-webfont.woff2") format("woff2"), url("../font/didot-webfont.woff") format("woff");
+  src: url("../font/didot-webfont.woff2") format("woff2"),
+    url("../font/didot-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -101,6 +105,12 @@ blockquote {
   font-weight: 800;
 }
 
+summary {
+  font-family: var(--main_font);
+  color: var(--secondary);
+  font-weight: 600;
+}
+
 footer p {
   font-family: var(--main_font);
   color: var(--contrast);
@@ -162,7 +172,8 @@ nav.active .menu {
   top: 50px;
   right: 0;
   width: 25%;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  min-width: 25ch;
+  box-shadow: -3px 7px 15px var(--secondary);
   z-index: 1;
 }
 
@@ -245,19 +256,11 @@ nav {
   align-items: center;
 }
 
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .menu a {
   display: block;
   position: relative;
   color: var(--txt_color);
-  font-family: var(--bold_main_font);
+  font-family: var(--main_font);
   text-decoration: none;
   text-align: end;
 }
@@ -275,6 +278,7 @@ nav {
 }
 .menu li {
   margin: 0 1rem;
+  list-style: none;
 }
 
 .menu li a {
@@ -298,7 +302,7 @@ footer {
   padding: 3vw 3vw;
   margin-top: 2vw;
   margin-inline: auto;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
@@ -318,6 +322,8 @@ footer form {
 main {
   max-width: 70vw;
   margin-inline: auto;
+  position: relative;
+  min-height: 70vh;
 }
 
 header {
@@ -328,6 +334,7 @@ header {
   position: sticky;
   top: 0;
   background-color: var(--primary);
+  z-index: 1;
 }
 
 /*---------- FARVER ----------*/

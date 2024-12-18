@@ -111,12 +111,6 @@ summary {
   font-weight: 600;
 }
 
-footer p {
-  font-family: var(--main_font);
-  color: var(--contrast);
-  font-weight: 600;
-}
-
 /*---------- BAGGRUNDSFARVER ----------*/
 .bg_color1 {
   background-color: var(--primary);
@@ -166,9 +160,9 @@ footer p {
 
 nav.active .menu {
   display: block;
-  background-color: var(--contrast);
+  background-color: var(--primary);
   position: absolute;
-  top: 50px;
+  top: 85px;
   right: 0;
   width: 25%;
   min-width: 25ch;
@@ -188,7 +182,7 @@ nav.active .menu a {
 .kontaktform {
   display: grid;
   width: 45vw;
-  border: var(--contrast) solid 2px;
+  border: var(--primary) solid 2px;
   min-width: 50ch;
 }
 
@@ -197,14 +191,14 @@ nav.active .menu a {
   width: 35%;
   margin: 5px 3px;
   padding: 3px 4px;
-  background-color: var(--contrast);
+  background-color: var(--primary);
   border: var(--txt_color) solid 1px;
   max-width: 150px;
 }
 
 legend {
   font-family: var(--main_font);
-  color: var(--contrast);
+  color: var(--primary);
   font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 3px;
@@ -216,7 +210,7 @@ legend {
   height: 15cqw;
   margin: 5px 3px 0px 3px;
   padding: 3px 4px;
-  background-color: var(--contrast);
+  background-color: var(--primary);
   border: var(--txt_color) solid 1px;
   max-height: 120px;
 }
@@ -227,7 +221,7 @@ legend {
   font-family: var(--txt_font);
   font-weight: 600;
   color: var(--txt_color);
-  background-color: var(--contrast);
+  background-color: var(--primary);
   border: var(--txt_color) solid 1px;
   border-top-left-radius: 3px;
   border-top-right-radius: 12px;
@@ -310,6 +304,9 @@ footer p {
   border-bottom: var(--txt_color) solid 3px;
   padding: 5px 50px;
   max-width: 50ch;
+  font-family: var(--main_font);
+  color: var(--primary);
+  font-weight: 600;
 }
 
 footer p,

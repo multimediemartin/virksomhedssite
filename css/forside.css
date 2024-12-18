@@ -6,17 +6,19 @@ main {
 /* MOBIL */
 
 #firstgrid {
-  padding-top: 10rem;
+  padding-top: 3rem;
 }
 
 blockquote {
   font-size: 40px;
   padding-top: 4rem;
-  text-align: center;
 }
 
-.p1 {
+.center1 {
   text-align: center;
+  align-items: center;
+}
+.p1 {
   padding-top: 2rem;
   padding-bottom: 1rem;
   padding-left: 2rem;
@@ -31,18 +33,13 @@ p {
 }
 
 h2 {
-  text-align: start;
   font-family: rubik one;
-}
-
-div {
-  text-align: center;
 }
 
 .button {
   display: inline-block;
-  background-color: #4a326b;
-  color: #ffffff;
+  background-color: var(--secondary);
+  color: var(--primary);
   padding: 1rem 2rem;
   font-size: 1.2rem;
   border-radius: 12px;
@@ -71,6 +68,7 @@ img {
   padding-top: 4rem;
   padding-bottom: 3rem;
   text-align: center;
+  color: var(--secondary);
 }
 
 .button2 {
@@ -82,10 +80,10 @@ img {
   z-index: 1;
   top: 50%; /* Move to center vertically */
   left: 50%; /* Move to center horizontally */
-  background-color: #4a326b; /* Purple background */
-  color: #ffffff; /* White text */
+  background-color: var(--secondary);
+  color: var(--primary);
   text-decoration: none;
-  padding: 0.8rem 1.5rem; /* Button padding */
+  padding: 0.8rem 1.5rem;
   font-size: 1.1rem;
   border-radius: 12px;
   transition: background-color 0.3s ease;
@@ -93,18 +91,17 @@ img {
 
 .image-container {
   position: relative; /* Establishes positioning context */
-  display: inline-block; /* Size container to the image */
+  display: inline-block;
 }
 
 .image-container img {
-  display: block; /* Removes bottom gap */
-  width: 100%; /* Ensure image fits container */
-  height: auto; /* Maintain aspect ratio */
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 button {
   border-radius: 1rem;
-  padding: 1rem;
   background-color: var(--secondary);
   border: solid var(--primary);
   color: var(--primary);
@@ -146,10 +143,6 @@ button {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 3rem;
-  }
-
-  p {
-    text-align: justify;
   }
 
   h2 {

@@ -21,10 +21,7 @@ details blockquote {
   margin-bottom: 70px;
 }
 .ydelser_hero h1 {
-  font-family: var(--main_font);
-  font-size: 40px;
-  padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-top: 12.5%;
 }
 
 .ydelser_hero img {
@@ -35,7 +32,7 @@ details blockquote {
   color: var(--primary);
   padding: 1vw;
   border-radius: 20px;
-  margin: 20px auto;
+  margin: 1.5rem;
 }
 
 summary {
@@ -79,8 +76,17 @@ blockquote {
   text-decoration: none;
   justify-content: center;
 }
+.cirkler {
+  height: 50cqw;
+  width: auto;
+  padding: 0;
+}
 
-@media (min-width: 750px) {
+.hjerne {
+  width: 75%;
+}
+
+@media (min-width: 800px) {
   .ydelser_hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -89,9 +95,13 @@ blockquote {
     margin: 100px 0px 100px auto;
   }
 
-  .span_2r {
-    object-fit: cover;
-    padding: 90px 0px 20px 0px;
+  .hands {
+    padding-top: 12.5cqw;
+  }
+
+  .hjerne {
+    width: 90%;
+    padding-top: 8cqw;
   }
 
   .none_to_grid_1-1_text {

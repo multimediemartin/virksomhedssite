@@ -1,15 +1,9 @@
-.img_div {
-  margin: 20px 0px 10px 0px;
-}
-
 .hero_overskrift {
-  font-family: var(--main_font);
-  font-size: 4rem;
   text-align: center;
 }
 
 .hero_text {
-  margin-block: 1.5rem;
+  margin-block: 1rem;
 }
 /*------------------------------------------RENE--------------------------------------------*/
 
@@ -32,9 +26,15 @@
   display: grid;
   justify-content: center;
   /*---------box-størrelse--------*/
-  margin: auto;
+  margin: 1vw auto;
   padding: 30px 30px 30px 30px;
-  margin: 0px 0px 0px 0px;
+  max-width: 50vw;
+}
+
+.rene_arbejder_med li,
+.kirsten_arbejder_med li {
+  color: var(--primary);
+  margin-left: 1rem;
 }
 
 .rene_arbejder_med_h2 {

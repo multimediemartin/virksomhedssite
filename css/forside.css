@@ -207,10 +207,12 @@ button {
   .hide_desktop {
     display: none;
   }
-}
 
-@media (max-width: 800px) {
-  .hide_mobil {
-    display: none;
+  .img_left {
+    padding-right: 0;
+  }
+
+  .img_right {
+    padding-left: 0;
   }
 }

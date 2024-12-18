@@ -69,6 +69,7 @@ h1 {
   font-family: var(--main_font);
   color: var(--secondary);
   font-weight: 800;
+  font-size: 4rem;
 }
 
 h2 {
@@ -98,6 +99,7 @@ a {
 li {
   font-family: var(--txt_font);
   color: var(--txt_color);
+  margin-block: 0.8rem;
 }
 
 blockquote {
@@ -314,7 +316,7 @@ footer {
 }
 
 footer p {
-  border-bottom: var(--txt_color) solid 3px;
+  border-bottom: hsl(265, 36%, 27%) solid 3px;
   padding: 5px 50px;
   max-width: 50ch;
   font-family: var(--main_font);
@@ -329,7 +331,7 @@ footer form {
 
 /*---------- LAYOUT ----------*/
 main {
-  margin: 5vw 5vw;
+  padding: 5vw 5vw;
   position: relative;
   min-height: 70vh;
 }
@@ -338,10 +340,6 @@ img {
   border-radius: 12px;
   margin-inline: auto;
   margin-bottom: 2.5vw;
-}
-
-.img_pad {
-  padding-inline: 2.5vw;
 }
 
 header {
@@ -391,7 +389,7 @@ body {
   .none_to_grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    gap: 1rem;
   }
 
   footer {
@@ -406,5 +404,6 @@ body {
   }
   main {
     max-width: 1000px;
+    margin-inline: auto;
   }
 }

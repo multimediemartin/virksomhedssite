@@ -1,8 +1,3 @@
-summary {
-  color: var(--primary);
-  padding: 1vw;
-}
-
 .ydelser {
   display: grid;
   gap: 12px;
@@ -13,4 +8,82 @@ details a,
 details blockquote {
   color: var(--primary);
   padding: 1vw;
+}
+
+/*-------------------------------------------HERO--------------------------------------------*/
+.ydelser_hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: auto;
+  text-align: center;
+
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.ydelser_hero h1 {
+  font-family: var(--main_font);
+  font-size: 40px;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+.ydelser_hero img {
+  border-radius: 20px;
+}
+/*-------------------------------------------bg_color2--------------------------------------------*/
+.bg_color2 {
+  color: var(--primary);
+  padding: 1vw;
+  border-radius: 20px;
+}
+
+summary {
+  color: var(--primary);
+  padding: 1vw;
+  text-align: center;
+  font-size: 30px;
+}
+
+blockquote {
+  font-size: 2em;
+  margin: 90px 0px 90px 0px;
+  text-align: center;
+}
+.span_2r {
+  object-fit: cover;
+  padding: 0px 0px 20px 0px;
+}
+
+.none_to_grid_1-1_text {
+  margin: 0px 10px 50px 10px;
+}
+
+.bg_color1 {
+  border-radius: 20px;
+  padding: 10px 25px 10px 25px;
+}
+
+.bg_color1 h2 {
+  text-align: center;
+  font-size: 2em;
+  padding: 20px 0px 20px 0px;
+}
+
+@media (min-width: 750px) {
+  .ydelser_hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    text-align: center;
+    margin: 100px 0px 100px auto;
+  }
+
+  .span_2r {
+    object-fit: cover;
+    padding: 90px 0px 20px 0px;
+  }
+
+  .none_to_grid_1-1_text {
+    margin: 0px 80px 90px 80px;
+  }
 }

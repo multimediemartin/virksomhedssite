@@ -11,6 +11,14 @@
   margin: 20px 0px 10px 0px;
 }
 
+.hero_overskrift {
+  font-family: var(--main_font);
+  font-size: 40px;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
 .hero_text {
   margin: auto;
 }

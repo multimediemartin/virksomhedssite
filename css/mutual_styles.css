@@ -85,6 +85,7 @@ h3 {
 p {
   font-family: var(--txt_font);
   color: var(--txt_color);
+  line-height: 1.5rem;
 }
 
 a {
@@ -103,6 +104,9 @@ blockquote {
   font-family: var(--main_font);
   color: var(--secondary);
   font-weight: 800;
+  font-size: 2rem;
+  padding-top: 4rem;
+  text-align: center;
 }
 
 summary {

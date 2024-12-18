@@ -1,8 +1,3 @@
-main {
-  max-width: 1000px;
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
 /* MOBIL */
 
 #firstgrid {
@@ -58,8 +53,6 @@ img {
   height: auto;
   width: 100%;
   align-self: center;
-  border-radius: 10px;
-  margin-bottom: 2rem;
 }
 
 .stortxt {
@@ -91,7 +84,6 @@ img {
 
 .image-container {
   position: relative; /* Establishes positioning context */
-  display: inline-block;
 }
 
 .image-container img {

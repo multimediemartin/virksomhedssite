@@ -137,7 +137,7 @@ summary {
   width: 30px;
   height: 20px;
   cursor: pointer;
-  margin: 40px 5vw 0 0;
+  margin-top: 40px;
 }
 
 .burger .line {
@@ -186,6 +186,11 @@ nav.active .menu a {
 nav {
   display: flex;
   justify-content: space-between;
+  margin-inline: 5vw;
+}
+
+.placer {
+  width: 30px;
 }
 
 .menu a {
@@ -233,16 +238,18 @@ nav {
   width: 45vw;
   border: var(--primary) solid 2px;
   min-width: 50ch;
+  padding: 5px;
 }
 
 #fnavn,
 #email {
   width: 35%;
   margin: 5px 3px;
-  padding: 3px 4px;
+  padding: 6px 8px;
   background-color: var(--primary);
   border: var(--txt_color) solid 1px;
   max-width: 150px;
+  border-radius: 12px;
 }
 
 legend {
@@ -258,15 +265,17 @@ legend {
   width: 85%;
   height: 15cqw;
   margin: 5px 3px 0px 3px;
-  padding: 3px 4px;
+  padding: 6px 8px;
   background-color: var(--primary);
   border: var(--txt_color) solid 1px;
   max-height: 120px;
+  border-radius: 12px;
 }
 
 #submit {
   width: 15%;
-  margin: 1px 0 5px 3px;
+  margin: 1px 0 5px 6px;
+  padding-block: 3px;
   font-family: var(--txt_font);
   font-weight: 600;
   color: var(--txt_color);
@@ -320,10 +329,19 @@ footer form {
 
 /*---------- LAYOUT ----------*/
 main {
-  max-width: 70vw;
-  margin: 5cqw auto;
+  margin: 5vw 5vw;
   position: relative;
   min-height: 70vh;
+}
+
+img {
+  border-radius: 12px;
+  margin-inline: auto;
+  margin-bottom: 2.5vw;
+}
+
+.img_pad {
+  padding-inline: 2.5vw;
 }
 
 header {
@@ -346,6 +364,7 @@ hr {
 .logo {
   margin-top: 15px;
   height: 60px;
+  aspect-ratio: 253.39/60;
 }
 
 /*---------- FARVER ----------*/
@@ -385,9 +404,6 @@ body {
     padding: none;
     margin-left: 0;
   }
-}
-
-@media (min-width: 1300px) {
   main {
     max-width: 1000px;
   }

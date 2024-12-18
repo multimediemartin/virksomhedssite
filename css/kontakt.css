@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.kontaktform {
+  width: 90vw;
+  background-color: var(--secondary);
+  padding: 6vw 3vw 6vw 3vw;
+  border-radius: 12px;
+  margin-bottom: 5vw;
+  border: none;
+  place-self: center;
+}
+
+#fnavn,
+#email {
+  background-color: var(--primary);
+  min-width: 50cqw;
+}
+
+legend {
+  display: none;
+}
+
+#besked {
+  min-width: 99%;
+}
+
+#submit {
+  width: 75%;
+  max-width: 230px;
+}
+
+@media (min-width: 800px) {
+  main {
+    margin-inline: auto;
+  }
+
+  legend {
+    display: none;
+  }
+
+  .kontaktform {
+    max-width: 80vw;
+  }
+
+  .kontaktinfo {
+    max-width: 100cqw;
+    justify-self: center;
+    margin-inline: 5vw;
+  }
+}
+
+footer p {
+  border-bottom: 0;
+}

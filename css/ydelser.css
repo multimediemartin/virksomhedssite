@@ -44,7 +44,7 @@ summary {
 
 blockquote {
   font-size: 2em;
-  margin: 90px 0px 90px 0px;
+  margin: 5vw 0;
   text-align: center;
 }
 .span_2r {
@@ -96,7 +96,7 @@ blockquote {
   }
 
   .hands {
-    padding-top: 12.5cqw;
+    padding-top: 5vw;
   }
 
   .hjerne {

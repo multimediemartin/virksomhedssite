@@ -35,6 +35,7 @@ details blockquote {
   color: var(--primary);
   padding: 1vw;
   border-radius: 20px;
+  margin: 20px auto;
 }
 
 summary {
@@ -67,6 +68,16 @@ blockquote {
   text-align: center;
   font-size: 2em;
   padding: 20px 0px 20px 0px;
+}
+
+.kontakt_ydelser {
+  background-color: var(--secondary);
+  display: grid;
+  margin: 30px auto;
+  padding: 20px 0px 20px 0px;
+  border-radius: 20px;
+  text-decoration: none;
+  justify-content: center;
 }
 
 @media (min-width: 750px) {

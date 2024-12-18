@@ -133,7 +133,7 @@ summary {
   width: 30px;
   height: 20px;
   cursor: pointer;
-  margin-top: 40px;
+  margin: 40px 5vw 0 0;
 }
 
 .burger .line {
@@ -176,6 +176,51 @@ nav.active .menu li {
 
 nav.active .menu a {
   font-size: 1.5rem;
+  color: var(--txt_color);
+}
+/*---------- HEADER ----------*/
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu a {
+  display: block;
+  position: relative;
+  color: var(--txt_color);
+  font-family: var(--main_font);
+  text-decoration: none;
+  text-align: end;
+}
+
+.menu a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: var(--secondary);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+.menu li {
+  margin: 0 1rem;
+  list-style: none;
+}
+
+.menu li a {
+  overflow: hidden;
+}
+
+.menu li a::after {
+  opacity: 1;
+  transform: translate3d(-101%, 0, 0);
+}
+
+.menu li a:hover::after,
+.menu li a:focus::after {
+  transform: translate3d(0, 0, 0);
 }
 
 /*---------- KONTAKTFORMULAR ----------*/
@@ -243,51 +288,6 @@ input::placeholder,
   opacity: 60%;
 }
 
-/*---------- HEADER ----------*/
-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.menu a {
-  display: block;
-  position: relative;
-  color: var(--txt_color);
-  font-family: var(--main_font);
-  text-decoration: none;
-  text-align: end;
-}
-
-.menu a::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 0.1em;
-  background-color: var(--secondary);
-  opacity: 0;
-  transition: opacity 300ms, transform 300ms;
-}
-.menu li {
-  margin: 0 1rem;
-  list-style: none;
-}
-
-.menu li a {
-  overflow: hidden;
-}
-
-.menu li a::after {
-  opacity: 1;
-  transform: translate3d(-101%, 0, 0);
-}
-
-.menu li a:hover::after,
-.menu li a:focus::after {
-  transform: translate3d(0, 0, 0);
-}
-
 /*---------- FOOTER ----------*/
 footer {
   display: grid;
@@ -323,10 +323,8 @@ main {
 }
 
 header {
-  border-bottom: solid var(--secondary) 2px;
-  padding-block: 15px;
+  padding-top: 15px;
   width: 100%;
-  margin-inline: auto;
   position: sticky;
   top: 0;
   background-color: var(--primary);
@@ -338,6 +336,7 @@ hr {
   border: solid var(--secondary) 1px;
   width: 90vw;
   margin-inline: auto;
+  padding-bottom: 0;
 }
 
 .logo {

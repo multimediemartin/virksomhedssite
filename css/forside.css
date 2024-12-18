@@ -25,7 +25,7 @@ blockquote {
 }
 
 p {
-  text-align: start;
+  /* text-align: start; */
   padding-top: 1.5rem;
   padding-bottom: 1rem;
 }

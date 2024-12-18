@@ -325,12 +325,19 @@ main {
 header {
   border-bottom: solid var(--secondary) 2px;
   padding-block: 15px;
-  width: 90%;
+  width: 100%;
   margin-inline: auto;
   position: sticky;
   top: 0;
   background-color: var(--primary);
-  z-index: 1;
+  z-index: 100;
+}
+
+hr {
+  margin-top: 15px;
+  border: solid var(--secondary) 1px;
+  width: 90vw;
+  margin-inline: auto;
 }
 
 .logo {

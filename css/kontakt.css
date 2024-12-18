@@ -68,6 +68,10 @@ footer p {
   padding: 10px;
 }
 
+.kontakt1 {
+  padding-top: 2rem;
+}
+
 a[href^="tel:"] {
   text-decoration: none;
   font-family: "albert sans";

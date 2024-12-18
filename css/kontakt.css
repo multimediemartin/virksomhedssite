@@ -1,0 +1,19 @@
+.Kirsten1 {
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 10px;
+}
+
+.Rene1 {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+a[href^="tel:"] {
+  text-decoration: none;
+  font-family: "albert sans";
+}
+a[href^="tel:"]:hover {
+  text-decoration: underline;
+}

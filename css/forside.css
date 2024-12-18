@@ -102,26 +102,6 @@ img {
   height: auto; /* Maintain aspect ratio */
 }
 
-footer {
-  background-color: var(--secondary);
-}
-
-.footerp,
-.kontaktform {
-  text-align: center;
-  color: var(--primary);
-  border: none;
-}
-
-#fnavn,
-#email {
-  border-radius: 1rem;
-  padding: 1rem;
-  background-color: var(--secondary);
-  border: solid var(--primary);
-  color: var(--primary);
-}
-
 button {
   border-radius: 1rem;
   padding: 1rem;
@@ -177,10 +157,6 @@ button {
     font-family: rubik one;
   }
 
-  div {
-    text-align: center;
-  }
-
   .button {
     display: inline-block;
     background-color: #4a326b;
@@ -213,7 +189,6 @@ button {
   }
 
   .button2 {
-    position: absolute;
     transform: translate(-50%, -50%);
     font-size: 2rem;
     font-family: didot;
@@ -221,91 +196,25 @@ button {
     z-index: 1;
     top: 50%; /* Move to center vertically */
     left: 50%; /* Move to center horizontally */
-    background-color: #4a326b; /* Purple background */
-    color: #ffffff; /* White text */
+    background-color: #4a326b;
+    color: #ffffff;
     text-decoration: none;
-    padding: 0.8rem 1.5rem; /* Button padding */
-
+    padding: 0.8rem 1.5rem;
     border-radius: 12px;
-    transition: background-color 0.3s ease;
   }
 
   .image-container {
-    position: relative; /* Establishes positioning context */
+    position: relative;
     display: flex;
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Size container to the image */
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
 
   .image-container img {
     display: inline-block;
-    display: block; /* Removes bottom gap */
-    width: 100%; /* Ensure image fits container */
-    height: auto; /* Maintain aspect ratio */
-  }
-
-  footer {
-    background-color: var(--secondary); /* Dark purple background */
-    color: var(--primary); /* White text color */
-    display: flex;
-    justify-content: space-between; /* Space between text and form */
-    align-items: center; /* Align vertically */
-    padding: 40px; /* Add padding for spacing */
-    font-family: didot; /* Matching font style */
-  }
-
-  footer .footerp {
-    width: 50%; /* Occupy half of the footer width */
-    line-height: 2rem; /* Increase line spacing for readability */
-    font-size: 1.1rem; /* Adjust font size */
-    text-align: left;
-    padding: none;
-  }
-
-  footer form {
-    width: 45%; /* Adjust width of form */
-  }
-
-  footer .kontaktform {
-    border: none; /* Remove fieldset border */
-    padding: 0;
-  }
-
-  footer .kontaktform legend {
-    font-size: 1.5rem;
-    color: var(--primary);
-    margin-bottom: 20px;
-    text-align: left;
-  }
-
-  footer .kontaktform input {
-    width: 100%; /* Full width inputs */
-    padding: 10px;
-    margin-bottom: 15px; /* Spacing between inputs */
-    border: 1px solid var(--primary); /* White border for inputs */
-    border-radius: 25px; /* Rounded corners */
-    background-color: transparent; /* Transparent background */
-    color: var(--primary); /* White text color */
-  }
-
-  footer .kontaktform input::placeholder {
-    color: var(--primary); /* Light placeholder text */
-  }
-
-  footer button {
-    width: 100%; /* Full width button */
-    padding: 10px;
-    border: 1px solid var(--primary); /* White border */
-    border-radius: 25px; /* Rounded corners */
-    background-color: transparent; /* Transparent background */
-    color: var(--primary); /* White text */
-    cursor: pointer;
-  }
-
-  footer button:hover {
-    background-color: var(--primary); /* White background on hover */
-    color: #3c2467; /* Purple text on hover */
-    transition: 0.3s ease;
+    display: block;
+    width: 100%;
+    height: auto;
   }
 }

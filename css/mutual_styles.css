@@ -239,8 +239,8 @@ nav {
   display: grid;
   width: 45vw;
   border: var(--primary) solid 2px;
-  min-width: 50ch;
-  padding: 5px;
+  min-width: 300px;
+  padding: 1vw;
 }
 
 #fnavn,
@@ -312,12 +312,12 @@ footer {
   margin-inline: auto;
   position: relative;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
 }
 
 footer p {
   border-bottom: hsl(265, 36%, 27%) solid 3px;
-  padding: 5px 50px;
+  padding: 1vw 5vw;
   max-width: 50ch;
   font-family: var(--main_font);
   color: var(--primary);

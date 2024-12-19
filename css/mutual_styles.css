@@ -364,6 +364,27 @@ hr {
   height: 60px;
   aspect-ratio: 253.39/60;
 }
+/*---------- ASPECT RATIO ----------*/
+
+.aspect_1-1 {
+  aspect-ratio: 385/371;
+}
+
+.aspect_2-3 {
+  aspect-ratio: 2/3;
+}
+
+.aspect_3-2 {
+  aspect-ratio: 3/2;
+}
+
+.aspect_s1 {
+  aspect-ratio: 535 /371;
+}
+
+.aspect_s2 {
+  aspect-ratio: 590/371;
+}
 
 /*---------- FARVER ----------*/
 

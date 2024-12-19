@@ -16,7 +16,8 @@ h1 {
 #fnavn,
 #email {
   background-color: var(--primary);
-  min-width: 50cqw;
+  max-width: 300px;
+  min-width: 200px;
 }
 
 legend {

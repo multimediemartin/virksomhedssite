@@ -207,12 +207,4 @@ button {
   .hide_desktop {
     display: none;
   }
-
-  .img_left {
-    padding-right: 0;
-  }
-
-  .img_right {
-    padding-left: 0;
-  }
 }
